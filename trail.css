@@ -1,0 +1,95 @@
+.Picture-holder img,
+.Full-pic-holder img,
+.pic-holder img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+    display: block; /* Removes extra spacing */
+}
+
+.First-half {
+    /* display: flex; */
+    /* width: 100%; */
+    gap: 10px;
+    justify-content: space-between;
+}
+/* .Card-holder-one div{
+    width: 50%;
+    height: 50%;
+} */
+
+.Testimonial-holder{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    /* length: 50%; */
+}
+
+.Name-holder, .Picture-holder{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+}
+
+.Name-holder-and-picture-holder-1{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.Name-holder-and-picture-holder-2{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.Name-holder-and-picture-holder-1 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+    border-radius: 45px;
+}
+
+.Name-holder-and-picture-holder-2 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+    border-radius: 45px;
+}
+
+.Name-holder{
+    display: inline-block;
+    margin-left: -75px;
+}
+
+.Name-holder P{
+    display: inline-block;
+    margin-left: -25px;
+}
+
+.Card-holder-two{    background-color: white; padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+
+}
+
+.Two-card-holder{    display: flex !important;
+    /* justify-content: space-between; */
+/* align-items: center; */
+
+}
+
+.Card-holder-two{
+    display: inline-block;
+    margin-left: -75px;
+    width: 50%;
+    Height: 50%;
+    padding-left: -10px;
+}
